@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha ./test/* --reporter mochawesome"
+    "test": "npx mocha ./test/* --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,6 @@
     "express"
   ],
   "devDependencies": {
-    "mochawesome": "^4.1.0"
+    "mocha-junit-reporter": "^1.23.3"
   }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0220" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-01-17T04:08:07" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Get / should works" timestamp="2020-01-17T04:08:07" tests="1" file="/Users/stepan_manko/Projects/projects/node/jenkins-playground/test/test.js" time="0.0220" failures="0">
+    <testcase name="Get / should works should return 200" time="0.0220" classname="should return 200">
+    </testcase>
+  </testsuite>
+</testsuites>
