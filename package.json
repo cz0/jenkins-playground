@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/test.js"
+    "test": "npx mocha ./test/* --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,8 @@
   },
   "bundledDependencies": [
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "mochawesome": "^4.1.0"
+  }
 }
